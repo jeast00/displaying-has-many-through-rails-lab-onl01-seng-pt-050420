@@ -10,12 +10,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 1) do
-
-  create_table "appointments", force: :cascade do |t|
-    t.datetime "appointment_datetime"
-    t.integer  "patient_id"
-    t.integer  "doctor_id"
-  end
+ActiveRecord::Schema.define(version: 0) do
 
 end
